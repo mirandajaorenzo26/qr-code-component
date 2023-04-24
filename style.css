@@ -5,7 +5,7 @@
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
-  --shadow: hsla(214, 5%, 72%, 0.6);
+  --shadow: hsla(210, 2%, 67%, 0.6);
 }
 
 *,
@@ -37,12 +37,12 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: max(23%, 300px);
+  width: min(90%, 350px);
 }
 
 .card {
   background-color: var(--white);
-  border-radius: 1em;
+  border-radius: 1.3em;
   box-shadow: 0 0 1.5em var(--shadow);
   display: flex;
   flex-direction: column;
@@ -51,19 +51,24 @@ img {
   text-align: center;
 }
 
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin: 1em;
+  margin-bottom: 1.5em;
+}
+
 .title {
-  font-size: 1.5em;
+  font-size: clamp(1em, 1.6em, 1.8em);
   font-weight: 700;
   color: var(--dark-blue);
-  margin: 0 1em;
 }
 
 .subtitle {
-  font-size: 1em;
+  font-size: clamp(0.5em, 1.1em, 1.5em);
   font-weight: 400;
   color: var(--grayish-blue);
-  padding-bottom: 1em;
-  margin: 0 1em;
 }
 
 .attribution {
@@ -77,5 +82,8 @@ img {
 @media only screen and (max-width: 375px) {
   .container {
     width: 90%;
+  }
+  .subtitle {
+    font-size: clamp(0.5em, 1.1em, 1.5em);
   }
 }
