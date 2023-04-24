@@ -8,22 +8,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Desktop screenshot
   ![Desktop View](/screenshot/desktop-view.png?raw=true 'Desktop View')
-- Mobile screenshot
+- Mobile screenshot <br />
   ![Mobile View](/screenshot/mobile-view.png?raw=true 'Mobile View')
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [https://github.com/mirandajaorenzo26/qr-code-component](https://github.com/mirandajaorenzo26/qr-code-component)
+- Live Site URL: [https://mirandajaorenzo26.github.io/qr-code-component/](https://mirandajaorenzo26.github.io/qr-code-component/)
 
 ### Built with
 
 - HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ## Author
 
