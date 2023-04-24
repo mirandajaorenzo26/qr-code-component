@@ -37,7 +37,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  width: min(90%, 350px);
+  width: min(90%, 300px);
 }
 
 .card {
@@ -60,13 +60,13 @@ img {
 }
 
 .title {
-  font-size: clamp(1em, 1.6em, 1.8em);
+  font-size: clamp(1em, 1.4em, 1.8em);
   font-weight: 700;
   color: var(--dark-blue);
 }
 
 .subtitle {
-  font-size: clamp(0.5em, 1.1em, 1.5em);
+  font-size: clamp(0.5em, 0.9em, 1.5em);
   font-weight: 400;
   color: var(--grayish-blue);
 }
