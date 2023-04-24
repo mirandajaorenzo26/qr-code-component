@@ -24,5 +24,5 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- LinkedIn - [Jao Renzo Miranda](www.linkedin.com/in/mirandajaorenzo)
+- LinkedIn - [Jao Renzo Miranda](https://www.linkedin.com/in/mirandajaorenzo)
 - Frontend Mentor - [@mirandajaorenzo26](https://www.frontendmentor.io/profile/mirandajaorenzo26)
